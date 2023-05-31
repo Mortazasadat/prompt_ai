@@ -35,13 +35,12 @@ const Feed = () => {
   return (
     <section className='feed'>
       <div className='w-full '>
-        <form action='relative w-full  flex-center '>
+        <form className='relative w-full flex-center'>
           <input
             type='text'
-            placeholder='Search for a tag & username'
-            value={searchText}
-            required
+            placeholder='Search for a tag or a username'
             onChange={handleSearchChange}
+            required
             className='search_input peer'
           />
         </form>
