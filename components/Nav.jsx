@@ -22,12 +22,12 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className='container w-full pt-3 mx-auto mb-16 flex-between'>
+    <nav className='container w-full px-3 pt-3 mx-auto mb-16 md:px-0 flex-between'>
       <Link href='/' className='z-20 flex gap-2 flex-center '>
         <Image
           src='/assets/images/logo.svg'
-          width={60}
-          height={60}
+          width={40}
+          height={40}
           className='object-contain '
           alt='promtopia logo'
         />
